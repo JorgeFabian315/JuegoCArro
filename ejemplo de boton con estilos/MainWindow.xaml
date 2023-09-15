@@ -1,0 +1,24 @@
+﻿<Window x:Class="ejemplo_de_boton_con_estilos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ejemplo_de_boton_con_estilos"
+        mc:Ignorable="d"
+        Title="AnimatedButton" Height="300" Width="300"
+        Background="Black">
+    <Grid>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="imagenes/hola.jpeg" Stretch="UniformToFill"></ImageBrush>
+        </Grid.Background>-->
+        <Image />
+        <StackPanel Margin="80,80,43,32">
+            <Button Width="125" >INICIAR JUEGO</Button>
+            <Button Width="133">SALIR DEL JUEGO</Button>
+
+        </StackPanel>
+    </Grid>
+
+
+
+</Window>
